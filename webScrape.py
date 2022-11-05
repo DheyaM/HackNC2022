@@ -25,4 +25,4 @@ for result in results:
 
 print(data)
 print(type(data))
-print(data[1])
+print("Data item 1 is ",type(data[1]))
