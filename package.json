@@ -1,0 +1,22 @@
+{
+  "name": "hacknc",
+  "version": "1.0.0",
+  "description": "website to keep track of politicians promises once elected",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DheyaM/HackNC2022.git"
+  },
+  "keywords": [
+    "politician"
+  ],
+  "author": "Dheya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DheyaM/HackNC2022/issues"
+  },
+  "homepage": "https://github.com/DheyaM/HackNC2022#readme"
+}
