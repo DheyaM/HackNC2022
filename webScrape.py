@@ -10,11 +10,8 @@ response = requests.get(url)
 
 print(response.status_code) # should be 200
 soup = BeautifulSoup(response.content, "html.parser")
-print(soup)
 # element that contains the promises made
 results = soup.find_all("div", class_="m-statement__quote")
-print(results)
-print(type(results))
 
 data = []
 for result in results:
