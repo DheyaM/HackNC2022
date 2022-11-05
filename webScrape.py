@@ -1,9 +1,9 @@
+# run this in terminal before running the notebook:
+# pip install bs4
+# pip install requests
+
 from bs4 import BeautifulSoup
-
 import requests
-import json
-
-# soup = BeautifulSoup(html_doc, 'html.parser')
 
 url ='https://www.politifact.com/truth-o-meter/promises/list/?promise_group=biden-promise-tracker&ruling=promise-kept'
 response = requests.get(url)
@@ -16,13 +16,10 @@ results = soup.find_all("div", class_="m-statement__quote")
 print(results)
 print(type(results))
 
-# data = json.loads(response.text)[0]
-
 data = []
-
 for result in results:
     data.append(result.find('a'))
 
 print(data)
 print(type(data))
-print(data[1])
+
