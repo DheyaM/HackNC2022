@@ -15,7 +15,7 @@ Our dashboard webscrapes data from accredited government sites about the past th
 ## 3. After installing all the dependencies, you can run the project.
 - python app.py
 ## 4. Then, open the Browser(ex: Chrome, Safari) and copy & paste the following link in your web browser to land to the home page of our web application.
-- http://152.23.57.228:4040/index
+- http://152.23.57.228:4040/
 
 ## Dependency List: 
 - flask
