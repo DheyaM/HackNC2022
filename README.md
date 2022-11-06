@@ -1,8 +1,10 @@
 # HackNC2022
 
+## Presentation
+https://docs.google.com/presentation/d/1TQ1v1xH5o4ROK_jFznIh74HyHleVJx7SARHkdD9IOsA/edit?usp=sharing
+
 ## Demo
-https://unc.zoom.us/rec/share/YaVE9kSQ7LG5llkb4AQCW8Jgr57d98nv1RkuaHC7bTC5de2RqDK0VpZAW-0P7NsH.k_4bUI_XX2h1Q-9k
-Passcode: 1r%8l@Ku
+https://youtu.be/2Be_7df7l-s
 
 ## Inspiration
 With us being in voting season and midterm elections just around the corner, we wanted to create an educational dashboard that not only educates students on voting but also sheds lights on the progress elected officials have made during their time in term.
