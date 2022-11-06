@@ -14,6 +14,16 @@
     position: relative;
   }
   
+
+  .dashboard{
+    width: 75%;
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(19, 90, 93, 0.286),rgba(19, 90, 93, 0.286));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
   .resources{
     width: 100%;
     min-height: 100vh;
@@ -22,6 +32,8 @@
     background-size: cover;
     position: relative;
   }
+
+
 
 
   .nav-links ul{
