@@ -1,7 +1,7 @@
 # HackNC2022
 
 ## Presentation
-https://docs.google.com/presentation/d/1TQ1v1xH5o4ROK_jFznIh74HyHleVJx7SARHkdD9IOsA/edit?usp=sharing
+https://tinyurl.com/2thmwcb5
 
 ## Demo
 https://youtu.be/2Be_7df7l-s
