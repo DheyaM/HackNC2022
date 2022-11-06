@@ -6,6 +6,23 @@ With us being in voting season and midterm elections just around the corner, we 
 ## What it does
 Our dashboard webscrapes data from accredited government sites about the past three Presidents' platform and beliefs, then uses a collection of works from other resources (CDC, EPA, WhiteHouse.gov) to determine the extent to which promises made have been met through a series of data visualizations . To make the information more N.C.-specific, the same was also done for two prominent N.C Officials, Tom Thillis and Graig Meyer.
 
+# Installation & Run Instructions
+
+## 1. Open the terminal on your local machine and clone our repository from Github into your IDE.
+ - https://github.com/DheyaM/HackNC2022.git
+## 2. Open a new terminal in your IDE to install dependencies. Make sure you install all the required dependencies listed below.
+ - pip3 install {dependency names}
+## 3. After installing all the dependencies, you can run the project.
+- python app.py
+## 4. Then, open the Browser(ex: Chrome, Safari) and copy & paste the following link in your web browser to land to the home page of our web application.
+- http://152.23.57.228:4040/index
+
+## Dependency List: 
+- flask
+- twilio.twiml.messaging_response,
+- pandas, plotly, numpy
+- more dependencies included at the top of the app.py 
+
 ## How we built it
 We built our web portal using HTML/CSS, Python, and Flask. We also integrated the Twilio API to let users know if updates have been made on our website or progress has been made by an official
 
