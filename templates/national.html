@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html>
+    <section class="header">
+    <h1>National Elected Officials Dashboard</h1>
+
+    <nav>
+       
+        <a class="logo" href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='votelogo.png') }}">
+            <div class="nav-links">
+        <ul>
+            <li><a href="{{ url_for('index') }}">HOME</a></li>
+            <li><a href="{{ url_for('resources') }}">RESOURCES</a></li>
+        </ul>
+        </div>
+    </nav>
+    </section>
+</html>
+
+<html>
+
+<head>
+    <title>resources</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<body>
+    <div id='chart' class='chart'”></div>
+    
+        <nav>
+            <a class="logo" href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='votelogo.png') }}">
+                <div class="nav-links">
+            <ul>
+                <li><a href="{{ url_for('index') }}">HOME</a></li>
+                <li><a href="{{ url_for('resources') }}">RESOURCES</a></li>
+            </ul>
+            </div>
+        </nav>
+            <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+            <script type='text/javascript'>
+                var graphs = {{graphJSON | safe}};
+                Plotly.plot('chart',graphs,{});
+            </script>
+            
+</body>  
+
+</html>

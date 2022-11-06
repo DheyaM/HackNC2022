@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>resources</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<body>
+    <section class="resources">
+        <nav>
+            <a class="logo" href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='votelogo.png') }}">
+                <div class="nav-links">
+            <ul>
+                <li><a href="{{ url_for('index') }}">HOME</a></li>
+                <li><a href="{{ url_for('resources') }}">RESOURCES</a></li>
+                <li><a href="{{ url_for('contact') }}">CONTACT US</a></li>
+            </ul>
+            </div>
+        </nav>
+    <div class='text-box'>
+     <form action = "{{ url_for('contact') }}" method = "post">
+        <p>Enter First Name:</p>
+        <p><input type = "text" First Name = "first name" /></p>
+        <p>Enter Last Name:</p>
+        <p><input type = "text" Last Name = "last name" /></p>
+        <p>Enter Phone Number:</p>
+        <p><input type = "text" Phone Name = "phone name" /></p>
+        <p>Enter Zip Code:</p>
+        <p><input type = "text" Phone Name = "zip name" /></p>
+       
+        <p><input type = "submit" value = "Submit" class="signup-btn" /></p> 
+    </form>   
+    </div>
+    </section>
+</body>  
+
+</html>

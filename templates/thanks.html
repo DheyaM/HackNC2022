@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>resources</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<body>
+    <section class="resources">
+        <nav>
+            <a class="logo" href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='votelogo.png') }}">
+                <div class="nav-links">
+            <ul>
+                <li><a href="{{ url_for('index') }}">HOME</a></li>
+                <li><a href="{{ url_for('resources') }}">RESOURCES</a></li>
+            </ul>
+            </div>
+        </nav>
+    <div class='text-box'>
+        <p>Thank you for signing up for SMS messages. You should have received an SMS after signing up.        </p>
+
+        <p>
+        We will keep you informed on any progress in the promises made by elected officials. 
+        Please checkout more information on Voting on the "Resources" tab.
+        </p>
+      
+    </div>
+    </section>
+</body>  
+
+</html>

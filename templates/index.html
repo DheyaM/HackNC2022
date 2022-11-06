@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Vote 4 Change</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+    <body>
+        <section class="header">
+        <nav>
+                <a class="logo" href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='votelogo.png') }}">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="{{ url_for('index') }}">HOME</a></li>
+                    <li><a href="{{ url_for('resources') }}">RESOURCES</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1>Track your Elected Officials, Vote with Facts</h1>
+            <p>
+                In a democracy, where we have the power to elect officials, we should have access to information about our leaders in an efficient, accessible and easy way. 
+                Introducing: our dashboards. Leaders make promises on what they plan to fulfill during their term. It is hard for the public to keep track of what promises they made and how much they have met, especially when the promises were made years ago. 
+                In this way, we hope to achieve two goals - keeping our leaders accountable and making informed decisions for re-elections. 
+                Voting is important. Making progress on a government level is important. Let us use our right to continue improving America.
+                
+            </p>
+            <a href="{{ url_for('federal') }}" class="signup-btn">Federal Officials Dashboard</a>
+            <a href="{{ url_for('national') }}" class="signup-btn">National Officials Dashboard</a>
+        </div>
+        
+        </section>
+        <section class="header">
+            <div class="text-box">
+            <h2>Why is it important to vote with facts?</h2>    
+            <p>
+                An important responsibility of citizens is voting. 
+                The law does not require citizens to vote, but voting is a very important part of any democracy. 
+                By voting, citizens are participating in the democratic process. Citizens vote for leaders to represent them and their ideas, and the leaders support the citizens' interests.
+            </p>
+
+            </div>
+        </section>
+
+        <section class="header">
+            <div class="text-box"> 
+                    <h2>Not eligible to vote yet?</h2>
+      
+                    <p>
+                    If you are not yet 18 (if you are at least 16 years of age you can pre-register to vote in the state of California), or are not a United States citizen, you can still participate in the following ways:
+                    </p>
+
+                    <p>
+                    * Get informed. Read up on issues (both local and national) and figure out where you stand. Check under the "Resources" tab for helpful information about helpful information about what to expect on this year’s ballot.
+                    </p>
+
+                    <p>
+                    * Get out and talk to people. Even if you cannot vote, you can still voice opinions in public forums. When people engage each other about the issues, we stand to become better-informed citizens.
+                    </p>
+
+                    <p>
+                    * Volunteer. You can work with outreach campaigns by volunteering to get out the vote in your community through phone banks, door-to-door outreach, and texting. 
+                    </p>
+                </p>
+
+                <a href="{{ url_for('contact') }}" class="signup-btn">Contact Us</a>
+
+                <a href="{{ url_for('resources') }}" class="signup-btn">Resources</a>
+                <br /> 
+                <br /> 
+                <br /> 
+            </div>
+            
+        </section>
+    </body>  
+
+</html>
+
