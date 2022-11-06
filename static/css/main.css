@@ -16,8 +16,8 @@
   
 
   .dashboard{
-    width: 75%;
-    min-height: 50vh;
+    width: 100%;
+    min-height: 5vh;
     background-image: linear-gradient(rgba(19, 90, 93, 0.286),rgba(19, 90, 93, 0.286));
     background-position: center;
     background-size: cover;

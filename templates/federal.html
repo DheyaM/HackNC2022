@@ -1,5 +1,23 @@
 <!doctype html>
 
+
+<html>
+    <section class="dashboard">
+
+    <nav>
+       
+        <a class="logo" href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='votelogo.png') }}">
+            <div class="nav-links">
+        <ul>
+            <li><a href="{{ url_for('index') }}">HOME</a></li>
+            <li><a href="{{ url_for('resources') }}">RESOURCES</a></li>
+        </ul>
+        </div>
+    </nav>
+    </section>
+</html>
+
+
 <html>
 
 <head>
@@ -10,14 +28,7 @@
 <body>
     <div id='chart' class='chart'”></div>
     <h1>Federal Elected Officials Dashboard</h1>
-        <nav>
-            <a class="logo" href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='votelogo.png') }}">
-                <div class="nav-links">
-            <ul>
-                <li><a href="{{ url_for('index') }}">HOME</a></li>
-                <li><a href="{{ url_for('resources') }}">RESOURCES</a></li>
-            </ul>
-            </div>
+       
         </nav>
         <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
         <script type='text/javascript'>
